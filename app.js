@@ -40,7 +40,7 @@ form.addEventListener("submit", (e) => {
 
   if (findUser) {
     localStorage.setItem("currentUser", JSON.stringify(findUser));
-    window.location.href = "https://hien0210.github.io/sp-cuoikhoa/index.html";
+    window.location.href = "https://hien0210.github.io/sp/index.html";
   } else {
     alert("Incorrect information");
   }
